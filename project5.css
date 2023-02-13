@@ -1,0 +1,81 @@
+<style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(./assets/bg\ \(1\).png);
+        }
+        nav ul  {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+        }
+        nav ul li{
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+     
+        nav ul  :hover{
+            background-color: #fff;
+            color: black;
+            text-decoration: underline;
+        }
+        .logo :hover {
+            background-color: black;
+            color: white;
+            text-decoration: solid;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            color: white;
+           padding-top: 100px;
+        }
+       div  h1{
+            font-weight: 1000px;
+            font-size: 75px;
+            padding-top: 30px;
+        }
+        p{
+            padding-bottom : 30px;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        button{
+            background-color: rgb(251, 8, 251);
+            color: white;
+            border-radius: 5px;
+            font-weight: 700;
+
+        }
+       
+        .btn1{
+            width: 95px;
+            height: 25px;
+        }
+        .btn1:hover{
+            background-color: blue;
+            color: white;
+            text-decoration: underline;
+        }
+
+    .btn2{
+        width: 160px;
+        height: 30px;
+          }
+   .btn2:hover{
+            background-color: blue;
+            color: white;
+            text-decoration: underline;
+        }
+
+     </style>
